@@ -136,3 +136,8 @@ gcloud.json
 
 # redis
 **/*/dump.rdb
+
+# Supabase
+.branches
+.temp
+.env
