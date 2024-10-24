@@ -69,8 +69,8 @@ services:
       DASHBOARD_USERNAME: ${DASHBOARD_USERNAME}
       DASHBOARD_PASSWORD: ${DASHBOARD_PASSWORD}
       KONG_LUA_SSL_TRUSTED_CERTIFICATE: /etc/ssl/cert.pem
-      ACME_EMAIL: contact@programyzer.com
-      ACME_DOMAIN: odi.programyzer.com
+      ACME_EMAIL: rinat.enikeev@gmail.com
+      ACME_DOMAIN: igra.methodology.city
     volumes:
       # https://github.com/supabase/supabase/issues/12661
       - ./volumes/api/kong.yml:/home/kong/temp.yml:ro
