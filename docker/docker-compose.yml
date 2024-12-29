@@ -70,7 +70,7 @@ services:
       DASHBOARD_PASSWORD: ${DASHBOARD_PASSWORD}
       KONG_LUA_SSL_TRUSTED_CERTIFICATE: /etc/ssl/cert.pem
       ACME_EMAIL: rinat.enikeev@gmail.com
-      ACME_DOMAIN: igra.methodology.city
+      ACME_DOMAIN: igra.school
     volumes:
       # https://github.com/supabase/supabase/issues/12661
       - ./volumes/api/kong.yml:/home/kong/temp.yml:ro
